@@ -35,4 +35,6 @@
     pero configuraremos en package json un script
     npm run build
     para ejecute el build de manera local
+    Podemos configurar el Es3 hasta el que queramos
+    
 */
