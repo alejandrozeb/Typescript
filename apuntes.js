@@ -19,4 +19,20 @@
 
     en typescript usaremos la version 4
     tsc es un copilador de typpescript
+
+    Visual studio ode esta construido en TS
+
+    TS y JS son compatibles 
+    Typescript
+    tambien podemos usar un require o un import de ts a js o de js a ts
+
+    Los tipos de datos son los de js
+
+    para copilar 
+    en consola
+    .\node_modules\.bin\tsc hola.ts
+
+    pero configuraremos en package json un script
+    npm run build
+    para ejecute el build de manera local
 */
