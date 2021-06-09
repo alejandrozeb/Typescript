@@ -37,4 +37,6 @@
     para ejecute el build de manera local
     Podemos configurar el Es3 hasta el que queramos
     
+    para ejecutar el js
+    node hola.js <<nombre archivo>>
 */
