@@ -39,4 +39,6 @@
     
     para ejecutar el js
     node hola.js <<nombre archivo>>
+
+    Playground permite ejecutar codigo typescript en el navegador
 */
