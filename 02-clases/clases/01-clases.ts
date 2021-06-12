@@ -7,7 +7,7 @@ class Rectangulo{
     //otro metodo de declara una variable privada, es proximas versiones en js ya no se podra acceder
     //#area: number;
 
-    constructor(ancho, alto){
+    constructor(ancho: number, alto: number){
         this.ancho = ancho;
         this.alto = alto;
     }
@@ -19,6 +19,8 @@ class Rectangulo{
     perimetro(){
         return this.ancho * 2 + this.alto * 2;
     }
+
+
 }
 //se tipa para que pueda reconocer los atributos del objeto
 //instanciar
@@ -30,3 +32,5 @@ console.log(r2.perimetro());
 
 
 //con private podemos limitar el accesso a esos atributos, metodos, funciones a solo la clase y ano desde afuera.
+
+//readonly ts vigila si se hace un cambio en dicho atributo o funcion en java es conocido como final, no se debe mezclar con private o podemos crear atributos que nose modifican ni el propia clase
