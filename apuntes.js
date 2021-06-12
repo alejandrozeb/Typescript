@@ -41,4 +41,8 @@
     node hola.js <<nombre archivo>>
 
     Playground permite ejecutar codigo typescript en el navegador
+
+
+    -------------CCLASES------
+    Es una estructura con atributos y puedes afectar estos metodos con funciones o metodos
 */
