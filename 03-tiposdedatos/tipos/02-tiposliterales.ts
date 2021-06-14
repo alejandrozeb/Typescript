@@ -34,4 +34,4 @@ let l: LoginOperation = {
     op: 'login'
 }
 
-//op debe ser de tipo login o salta un error redux
+//op debe ser de tipo login o salta un error reduxhnjOIIU
