@@ -8,7 +8,7 @@ interface UserData{
     superuser: boolean
 }
 
-function login(): UserData{
+function login2(): UserData{
     return {
         username: 'admin',
         created_at: new Date(),
@@ -16,6 +16,6 @@ function login(): UserData{
     }
 }
 //login es de tipo UserData, es restrictivo se debe imlemetnar todo los de la clase, ademas no se debe implementar algo mas de la interface
-let data: UserData = login();
+let data: UserData = login2();
 
 //interfaces para tipar, de debe implementar todo lo que pide
