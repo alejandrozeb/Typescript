@@ -22,3 +22,12 @@ function subir2<Publicacion extends Post, Extra>(p:Publicacion, e?: Extra): Publ
 }
 
 let post2: Nota = {mensaje: "hola mundo"};
+
+/* 
+utility types integrados con ts
+
+partial es un tipo para crear interfaces parciales
+, no suelta errores si no llenas toda la interfaz
+
+ver el hankbook
+*/
