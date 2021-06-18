@@ -21,7 +21,6 @@ let payload2: Respuesta<boolean, string> = {
     success: true,
     message: true,
     whatever: "cualquiercosa"
-}
-//los genericos buscan influenciar los tipos internos de una clases,interfaces, funciones
+}//los genericos buscan influenciar los tipos internos de una clases,interfaces, funciones
 
 //en los genericos siempre usan letras a diferencia de otros lenguajes pueden tener mas letras
