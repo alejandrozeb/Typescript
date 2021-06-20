@@ -45,4 +45,26 @@
 
     -------------CCLASES------
     Es una estructura con atributos y puedes afectar estos metodos con funciones o metodos
-*/
+
+    copilar un grupo de archivos o carpeta
+    para esto nos ayuda tsconfig da opcoines de copilaciones
+
+    node_modules/.bin/tsc --init
+
+    creamos el archivo tsconfig.json
+    opciones
+    target
+    podemos afectar la forma en que se copila es5, es2018
+
+    module
+    que cambie el tipo de import
+    jsx
+    react
+    out dir
+    donde esta el output de la copilacion podemos decirle   ue copile en una carpeta que normalmente se llama distribucion o Dist
+
+    y solo ejecutamos
+    node_modules/.bin/tsc  para copilar todo el proyecto
+
+    siempre debemos usar tsconfig facilita mucho el control sobre el codigo que se copila
+    */
