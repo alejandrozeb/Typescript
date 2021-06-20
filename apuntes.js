@@ -74,4 +74,24 @@
     is-what verifica las funciones
     npm i is-what 
     descarga la ultima version , en este caso esta hecho en ts
+    .d.ts
+    los modulos que traemos de npm significa que la libreria en js esta tipado
+
+    en ts declare podemos declarar una funcion
+
+    debemos verificar que las librerias que tremos de npm deben traer .d.ts por que ts no sabe trabajar solo con js.
+
+    para usar js tenemos opciones
+
+    1 
+    en tsconfig 
+    usamos allow js
+
+    2
+    @types/<nombredelpaquete>
+    trae el archivo con el .d.ts con el tipado
+
+    para generar los archivos .d.ts en tsconfig usamos la opcion
+    "declaration"
+    y se genera el archivo 
     */
