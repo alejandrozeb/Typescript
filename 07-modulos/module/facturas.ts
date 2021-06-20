@@ -5,3 +5,7 @@ import IVA, {Precio} from "./impuesto";
 function procesarPedido(p: Producto){
     console.log('procesando...');
 }
+
+//para fechas podemos usar moment  y es una libreria de terceros
+
+//ALGUNAS LIBRERIAS NO SE PUEDEN TIPAR

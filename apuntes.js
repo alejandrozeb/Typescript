@@ -67,4 +67,11 @@
     node_modules/.bin/tsc  para copilar todo el proyecto
 
     siempre debemos usar tsconfig facilita mucho el control sobre el codigo que se copila
+
+    -------npm------
+    podemos importar librerias, modulos de terceros que podemos reutilizar
+    como express para servidor web
+    is-what verifica las funciones
+    npm i is-what 
+    descarga la ultima version , en este caso esta hecho en ts
     */
