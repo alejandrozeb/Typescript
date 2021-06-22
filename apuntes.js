@@ -94,4 +94,11 @@
     para generar los archivos .d.ts en tsconfig usamos la opcion
     "declaration"
     y se genera el archivo 
+    
+    para usar require 
+    npm i @types/node --save-dev
+
+    npm i --save-dev rimraf
+
+    borra independientemente del SO
     */
