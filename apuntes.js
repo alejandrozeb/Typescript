@@ -101,4 +101,5 @@
     npm i --save-dev rimraf
 
     borra independientemente del SO
+    ts puede identificar los tipos dentro de un json
     */
